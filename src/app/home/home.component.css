@@ -1,0 +1,121 @@
+.bg-img {
+  /* The image used */
+  background-image: url(/assets/img/home/jamespadolsey.jpg);
+  /* Control the height of the image */
+  min-height: 700px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.restrict-width {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .services-us-content {
+    margin-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+.it-wrap .services-us-media-block {
+  background-color: #d3f4d9;
+}
+
+.services-us {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+
+.services-us-content {
+  width: 450px;
+  margin-right: 130px;
+  margin-top: 110px;
+}
+
+.services-us-content .section-header {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: end;
+  align-items: flex-end;
+  position: relative;
+}
+
+.services-us-content .section-header h4 {
+  font-size: 40px;
+  color: #5a5e56;
+  font-family: "Segoe UI Emoji";
+  font-weight: bold;
+  display: inline-block;
+}
+
+.services-us-content .section-body h4 h5 {
+  font-size: 28px;
+  color: #5a5e56;
+  font-family: "Segoe UI Emoji";
+  display: inline-block;
+}
+
+.services-us-content p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 10px;
+  color: #585858;
+  font-family: "Segoe UI Emoji";
+}
+
+.services-us-media-block {
+  width: 745px;
+  background-color: #eaf2a9;
+  overflow: hidden;
+  padding-bottom: 45px;
+  margin-top: -1px;
+}
+
+.services-media-content {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.button-group .button+.button {
+  margin-left: 0;
+  margin-top: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  border-radius: .4rem;
+  padding: 1.5rem 3rem;
+  background-color: #002737;
+  text-align: center;
+}
+
+.button.button__primary {
+  background-color: #a200bacc;
+  color: #fff;
+}
+
+.button.button__secondary {
+  box-shadow: 0 0.1rem 0.6rem -0.1rem rgb(0 39 55);
+  background-color: #fff;
+  color: #002737;
+}
+
+.button:hover,
+.dropdown:hover {
+  background-color: #e297f3;
+  color: white;
+}

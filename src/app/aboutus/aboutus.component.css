@@ -1,0 +1,103 @@
+.restrict-width {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.about-us {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+.about-us-content {
+    width: 450px;
+    margin-right: 130px;
+    margin-top: 110px;
+}
+.about-us-content .section-header {
+    border-bottom: 1px solid #1251d9;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: end;
+    align-items: flex-end;
+}
+.about-us-content .section-header h4 {
+    font-size: 40px;
+    color: #5a5e56;
+    font-family: "Segoe UI Emoji";
+    display: inline-block;
+    font-weight: bold;
+}
+.about-us-content p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 10px;
+  color: #585858;
+  font-family: "Segoe UI Emoji";
+}
+.it-wrap .about-us-media-block {
+    background-color: #ac33fe0f;
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+.about-us-rows-group {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-top: -10px;
+}
+.about-us-rows {
+    display: -webkit-box;
+    display: flex;
+}
+.about-us-rows:not(:last-child) {
+    margin-bottom: 35px;
+}
+.about-us-column.empty {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.about-us-column {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 210px;
+    height: 210px;
+    border: 2px solid #ecb003;
+    background-color: #fff6da;
+    box-shadow: 0px 5px 4.6px 0.4px rgba(2, 2, 2, 0.28);
+    border-radius: 20px;
+}
+.about-us-column .column-wrap {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-align: center;
+}
+.about-us-column .column-wrap img {
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+}
+.about-us-column-description {
+    font-size: 18px;
+    color: #5e5d5d;
+    font-family: "Segoe UI Emoji";
+    max-width: 150px;
+    text-align: center;
+    margin-top: 17px;
+}
+.about-us-column.blue {
+    border: 2px solid #1f92b1;
+    background-color: #d3f4d9;
+}
+.about-us-column.red {
+    border: 2px solid red;
+    background-color: #d3f4d9;
+}
+.about-us-column:not(:last-child) {
+    margin-right: 30px;
+}
