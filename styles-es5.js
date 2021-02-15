@@ -353,7 +353,7 @@
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! /Users/sandeepbhaskaran/Documents/sandeep/goprojects/genysis-it.github.io/src/styles.css */
+    /*! /Users/sandeepbhaskaran/Documents/sandeep/goprojects/web-app/src/styles.css */
     "./src/styles.css");
     /***/
   }

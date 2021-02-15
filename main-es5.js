@@ -191,7 +191,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"main-container restrict-width it-wrap\">\n  <section class=\"services-us\" id=\"services\">\n    <div class=\"services-us-content\">\n      <div class=\"section-header\">\n        <h4> Serving our customers with </h4>\n      </div>\n      <div class=\"section-body\">\n        <h4>\n          <h5>- Software Development</h5>\n          <h5>- IT staffing needs</h5>\n        </h4>\n        <div class=\"button-group\">\n          <a class=\"button button__primary\" href=\"/letsconnect\">Lets Connect</a>\n          <a class=\"button button__secondary\" href=\"/aboutus\">Learn More</a>\n        </div>\n      </div>\n    </div>\n    <div class=\"services-us-media-block\">\n      <div class=\"bg-img\"> </div>\n    </div>\n  </section>\n</div>\n";
+    __webpack_exports__["default"] = "<div class=\"main-container restrict-width it-wrap\">\n  <section class=\"services-us\" id=\"services\">\n    <div class=\"services-us-content\">\n      <div class=\"section-header\">\n        <h4> Serving our customers with </h4>\n      </div>\n      <div class=\"section-body\">\n        <h4>\n          <h5>- Software Development</h5>\n          <h5>- IT staffing needs</h5>\n        </h4>\n        <div class=\"button-group\">\n          <a class=\"button button__primary\" routerLink=\"/letsconnect\">Lets Connect</a>\n          <a class=\"button button__secondary\" routerLink=\"/aboutus\">Learn More</a>\n        </div>\n      </div>\n    </div>\n    <div class=\"services-us-media-block\">\n      <div class=\"bg-img\"> </div>\n    </div>\n  </section>\n</div>\n";
     /***/
   },
 
@@ -2214,7 +2214,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! /Users/sandeepbhaskaran/Documents/sandeep/goprojects/genysis-it.github.io/src/main.ts */
+    /*! /Users/sandeepbhaskaran/Documents/sandeep/goprojects/web-app/src/main.ts */
     "./src/main.ts");
     /***/
   }
